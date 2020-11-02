@@ -1,6 +1,6 @@
 ## Happy Holi
 
-See live demo on **[https://flyingsonu122.github.io/happyHoli](https://flyingsonu122.github.io/happyHoli)**
+See live demo on **[happyHoli](https://flyingsonu122.github.io/happyHoli)**
 
 **MIT &copy; [Sonu kumar kushwaha](https://github.com/flyingsonu122)**
 
