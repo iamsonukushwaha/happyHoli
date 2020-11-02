@@ -1,4 +1,4 @@
-## happyHoli
+## Happy Holi
 
 See live demo on **[https://flyingsonu122.github.io/happyHoli](https://flyingsonu122.github.io/happyHoli)**
 
