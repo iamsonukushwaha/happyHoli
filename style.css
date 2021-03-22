@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+
 body{
     height: 100%;
     width: 100%;
     margin: 20vh auto;
-    /*overflow: hidden;*/
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +23,7 @@ body{
     animation-play-state: running;
     animation-timing-function: ease-in-out;
 }
+
 @keyframes animate{
     0%{
         background-image: url(./images/holi_2.jpg);
@@ -42,6 +44,7 @@ body{
         background-image: url(./images/holi_1.jpg);
     }
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -68,6 +71,7 @@ body{
         transform: translateY(20px);
     }
 }
+
 .wish{
     margin: auto;
     text-align: center;
@@ -84,7 +88,8 @@ body{
         margin: 15vh auto;
     }
 }
-@media screen and (min-width: 400){
+
+@media screen and (max-width: 400){
     body{
         margin: 10vh auto;
     }
