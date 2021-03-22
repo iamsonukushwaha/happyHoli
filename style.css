@@ -9,7 +9,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 20vh auto;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     align-items: center;
     justify-content: center;
