@@ -48,8 +48,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     border-radius: 20px;
-    height: 30vh;
-    width: 70vw;
+    width: 60vw;
 }
 .container:hover{
     transition-duration: 2s;
@@ -72,5 +71,17 @@ body{
     text-align: center;
     filter: brightness(200%);
     filter: contrast(150%);
-    font-size: 3.5rem;
+}
+@media screen and (orientation:landscape) and (max-width: 400){
+    *{
+        font-size: 1.1em;
+    }
+    body{
+        margin: 18vh auto;
+    }
+}
+@media screen and (max-width: 400){
+    body{
+        margin: 17vh auto;
+    }
 }
