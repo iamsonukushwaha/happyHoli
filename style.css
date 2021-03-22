@@ -81,21 +81,4 @@ body{
     filter: contrast(150%);
 }
 
-@media screen and (orientation:landscape) and (max-width: 400){
-    *{
-        font-size: 1.1em;
-    }
-    body{
-        margin: 15vh auto;
-    }
-}
 
-@media screen and (max-width: 400){
-    *{
-        font-size: 1em;
-    }
-    body{
-        margin: 10vh auto;
-    }
-    
-}
