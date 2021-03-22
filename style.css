@@ -79,10 +79,10 @@ body{
 }
 @media screen and (max-width: 400){
     body{
-        margin: 16vh auto;
+        margin: 10vh auto;
     }
     .wish{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .container:hover{
         transition-duration: 2s;
