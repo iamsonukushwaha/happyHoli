@@ -71,7 +71,6 @@ body{
     text-align: center;
     filter: brightness(200%);
     filter: contrast(150%);
-    font-size: 3.5em;
 }
 @media screen and (orientation:landscape) and (max-width: 400){
     *{
