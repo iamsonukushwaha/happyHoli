@@ -91,6 +91,9 @@ body{
 }
 
 @media screen and (max-width: 400){
+    *{
+        font-size: 1em;
+    }
     body{
         margin: 10vh auto;
     }
