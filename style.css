@@ -50,11 +50,8 @@ body{
     border-radius: 20px;
     width: 60vw;
 }
-.container:hover{
-    transition-duration: 2s;
-    background: rgba(255, 255, 255, 0.6);
-    animation: animate1 4s linear infinite;
-}
+
+
 @keyframes animate1{
     0%,50%,100%{
         transform: translateY(0px);
@@ -86,5 +83,10 @@ body{
     }
     .wish{
         font-size: 1.5em;
+    }
+    .container:hover{
+    transition-duration: 2s;
+    background: rgba(255, 255, 255, 0.6);
+    animation: animate1 4s linear infinite;
     }
 }
