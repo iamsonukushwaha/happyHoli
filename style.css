@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    margin: 20vh auto;
+    margin: 15vh auto;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -47,10 +47,9 @@ body{
 
 .container{
     display: flex;
-    padding: 10px;
+    padding: 10px auto;
     justify-content: center;
     text-align: center;
-    box-sizing: border-box;
     border-radius: 20px;
     width: 60vw;
 }
@@ -75,6 +74,7 @@ body{
 
 .wish{
     margin: auto;
+    padding: auto;
     text-align: center;
     font-size: 1.7em;
     filter: brightness(200%);
