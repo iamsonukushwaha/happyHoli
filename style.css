@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    margin: 15vh auto;
+    margin-top: 15vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -83,6 +83,6 @@ body{
 
 @media only screen and (max-width: 400px) {
     .wish {
-        font-size: 30px;
+        font-size: 24pxpx;
     }
 }
