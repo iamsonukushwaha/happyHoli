@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 40vh auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/holi_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation: animate 30s alternate-reverse infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%{
+        background-image: url(./images/holi_2.jpg);
+    }
+    20%{
+        background-image: url(./images/holi_3.jpg);
+    }
+    40%{
+        background-image: url(./images/holi_4.jpg);
+    }
+    60%{
+        background-image: url(./images/holi_5.jpg);
+    }
+    80%{
+        background-image: url(./images/holi_6.jpg);
+    }
+    100%{
+        background-image: url(./images/holi_1.jpg);
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 60vw;
+}
+.container:hover{
+    transition-duration: 2s;
+    background: rgba(255, 255, 255, 0.6);
+    animation: animate1 4s linear infinite;
+}
+@keyframes animate1{
+    0%,50%,100%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    75%{
+        transform: translateY(20px);
+    }
+}
+.wish{
+    margin: auto;
+    text-align: center;
+    filter: brightness(200%);
+    filter: contrast(150%);
+}
+@media screen and (orientation:landscape) and (max-width: 400){
+    *{
+        font-size: 1.1em;
+    }
+    body{
+        margin: 18vh auto;
+    }
+}
+@media screen and (max-width: 400){
+    body{
+        margin: 17vh auto;
+    }
+    .wish{
+        font-size: 1.5em;
+    }
+}

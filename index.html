@@ -1,53 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Happy Holi</title>
-        <style>
-            #text{
-                height: 100vh;
-                text-align: center;
-                margin: 30vh auto;
-                overflow: hidden;
-            }
-        </style>
-    </head>
-
-    <body id="text">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Happy Holi.">
+    <meta name="auther" content="Sonu Kumar Kushwaha">
+    <meta name="email" content="flyingsonu736@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Holi</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
         <h2 class="wish">Make a splash this Holi to spread cheer and joy all around.<br/> Wishing you and your family all the success and prosperity this Holi! <br/> Have a colourful and joyous Holi this year! May the hues of love colour your life this Holi!</h2>
-    </body>
-    <script>
-        //variables
-        let color = "#";
-        let color2 = "#";
-        const colors = [
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'
-        ]
-        const bodyBackground = document.getElementById('text');
-        const wish = document.querySelector('.wish');
-
-        //logic
-
-//         (function () { setInterval(getColor, 3000) })();
-         setInterval(getColor, 3000);
-
-        function getColor() {
-            color = "#";
-            color2 = "#";
-            for (let i = 0; i < 6; i++) {
-                let random = Math.floor(Math.random() * colors.length);
-                let random2 = Math.floor(Math.random() * colors.length);
-
-
-                color += colors[random];
-                color2 += colors[random2];
-            }
-            bodyBackground.style.backgroundColor = color;
-            wish.style.color = color2;
-        }
-
-    </script>
-    <!-- Made by Sonu kumar kushwaha -->
+    </div>
+    <script src="./main.js" type="text/javascript"></script>
+</body>
 </html>
