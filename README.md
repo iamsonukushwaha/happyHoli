@@ -1,6 +1,15 @@
-## Happy Holi
+<h1 align="center">
+  Happy Holi
+</h1>
 
-> See live demo on **[flyingsonu122.github.io/happyHoli](https://flyingsonu122.github.io/happyHoli)**
+
+<div align="center">
+  <img alt="Happy Holi" src="https://raw.githubusercontent.com/flyingsonu122/happyHoli/main/images/happyHoli.jpeg" />
+</div>
+
+<br/><br/><br/>
+
+> live demo on **[flyingsonu122.github.io/happyHoli](https://flyingsonu122.github.io/happyHoli)**
 
 
 <br/><br/><br/>
