@@ -7,7 +7,7 @@
 body{
     height: 100%;
     width: 100%;
-    margin: 40vh auto;
+    margin: 20vh auto;
     /*overflow: hidden;*/
     display: flex;
     align-items: center;
@@ -74,19 +74,19 @@ body{
         font-size: 1.1em;
     }
     body{
-        margin: 18vh auto;
+        margin: 15vh auto;
     }
 }
 @media screen and (max-width: 400){
     body{
-        margin: 17vh auto;
+        margin: 16vh auto;
     }
     .wish{
         font-size: 1.5em;
     }
     .container:hover{
-    transition-duration: 2s;
-    background: rgba(255, 255, 255, 0.6);
-    animation: animate1 4s linear infinite;
+        transition-duration: 2s;
+        background: rgba(255, 255, 255, 0.6);
+        animation: animate1 4s linear infinite;
     }
 }
