@@ -51,6 +51,11 @@ body{
     width: 60vw;
 }
 
+.container:hover{
+        transition-duration: 2s;
+        background: rgba(255, 255, 255, 0.6);
+        animation: animate1 4s linear infinite;
+}
 
 @keyframes animate1{
     0%,50%,100%{
@@ -66,10 +71,11 @@ body{
 .wish{
     margin: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
     filter: brightness(200%);
     filter: contrast(150%);
 }
+
 @media screen and (orientation:landscape) and (max-width: 400){
     *{
         font-size: 1.1em;
@@ -82,9 +88,5 @@ body{
     body{
         margin: 10vh auto;
     }
-    .container:hover{
-        transition-duration: 2s;
-        background: rgba(255, 255, 255, 0.6);
-        animation: animate1 4s linear infinite;
-    }
+    
 }
