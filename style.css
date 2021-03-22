@@ -48,8 +48,8 @@ body{
     text-align: center;
     box-sizing: border-box;
     border-radius: 20px;
-    height: 20vh;
-    width: 60vw;
+    height: 30vh;
+    width: 70vw;
 }
 .container:hover{
     transition-duration: 2s;
