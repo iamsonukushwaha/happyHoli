@@ -6,10 +6,10 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 20vh auto;
-    /*overflow: auto;*/
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
