@@ -66,6 +66,7 @@ body{
 .wish{
     margin: auto;
     text-align: center;
+    font-size: 2em;
     filter: brightness(200%);
     filter: contrast(150%);
 }
@@ -77,12 +78,9 @@ body{
         margin: 15vh auto;
     }
 }
-@media screen and (max-width: 400){
+@media screen and (min-width: 400){
     body{
         margin: 10vh auto;
-    }
-    .wish{
-        font-size: 2em;
     }
     .container:hover{
         transition-duration: 2s;
