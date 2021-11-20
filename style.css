@@ -25,22 +25,43 @@ body{
 
 @keyframes animate{
     0%{
-        background-image: url(./images/holi_2.jpg);
+        background-image:url(./images/holi_1.jpg)
     }
-    20%{
-        background-image: url(./images/holi_3.jpg);
+    15%{
+        background-image:url(./images/holi_1.jpg)
     }
-    40%{
-        background-image: url(./images/holi_4.jpg);
+    16%{
+        background-image:url(./images/holi_2.jpg)
     }
-    60%{
-        background-image: url(./images/holi_5.jpg);
+    32%{
+        background-image:url(./images/holi_2.jpg)
     }
-    80%{
-        background-image: url(./images/holi_6.jpg);
+    33%{
+        background-image:url(./images/holi_3.jpg)
+    }
+    49%{
+        background-image:url(./images/holi_3.jpg)
+    }
+    50%{
+        background-image:url(./images/holi_4.jpg)
+    }
+    66%{
+        background-image:url(./images/holi_4.jpg)
+    }
+    67%{
+        background-image:url(./images/holi_5.jpg)
+    }
+    83%{
+        background-image:url(./images/holi_5.jpg)
+    }
+    84%{
+        background-image:url(./images/holi_6.jpg)
+    }
+    99%{
+        background-image:url(./images/holi_6.jpg)
     }
     100%{
-        background-image: url(./images/holi_1.jpg);
+        background-image:url(./images/holi_1.jpg)
     }
 }
 
